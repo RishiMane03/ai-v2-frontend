@@ -165,8 +165,7 @@ const Chat = () => {
         let url = "https://api.openai.com/v1/chat/completions"
 
         // let token;
-        // let token = `Bearer ${openAiAPI}`
-        let token = `Bearer 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`
+        let token = `Bearer ${openAiAPI}`
         let model = 'gpt-3.5-turbo'
 
         // adding old msg to new msg list
